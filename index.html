@@ -412,7 +412,7 @@ Currently we are working on 100 poeple batches so book your slot first for getti
               </h5>
               <div class="btn-box">
                 <a href="">
-                  <img src="images/Instagram.png" alt="" height="100" width="100">
+                  <img src="images/instagram.png" alt="" height="100" width="100">
                 </a>
                 <a href="">
                   <img src="images/telegram.png" alt="" height="100" width="100">
@@ -466,6 +466,25 @@ Currently we are working on 100 poeple batches so book your slot first for getti
 
   <!-- client section -->
 
+<style>
+@keyframes move {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(100%); }
+}
+
+.client_section {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-text-container {
+  display: inline-block;
+  width: 1000px; /* Adjust the width as per your requirements */
+  animation: move 10s linear infinite;
+}
+</style>
+</head>
+<body>
   <section class="client_section layout_padding-bottom">
     <div class="container">
       <div class="heading_container">
@@ -473,46 +492,50 @@ Currently we are working on 100 poeple batches so book your slot first for getti
           Testimonial
         </h2>
       </div>
-      <div class="box">
-        <div class="b-1">
+      <div class="image-text-container">
+        <div class="box">
+          <div class="b-1">
+            <div class="client_id">
+              <div class="img-box">
+                <img src="images/client-1.jpg" alt="">
+              </div>
+              <div class="name">
+                <h5>
+                  Shantanu Shah
+                </h5>
+                <h6>
+                  Our Team member and an early investor.
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div class="client_detail">
+            <p>
+              "I recently interacted with one of your employees who provided excellent customer service. They were knowledgeable, patient, and provided helpful tips. It's refreshing to encounter such a positive experience, and it speaks volumes about the company's commitment to its customers. Thank you for hiring such fantastic employees."
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="image-text-container">
+        <div class="box">
           <div class="client_id">
             <div class="img-box">
-              <img src="images/client-1.jpg" alt="">
+              <img src="images/client-2.jpg" alt="">
             </div>
             <div class="name">
               <h5>
-                Shantanu Shah
+                Gaurav Sharma
               </h5>
               <h6>
-                Our Team member and an early investor.
+                Our Valuable Customer
               </h6>
             </div>
           </div>
-        </div>
-        <div class="client_detail">
-          <p>
-           "I recently interacted with one of your employees who provided excellent customer service. They were knowledgeable, patient, and provided helpful tips. It's refreshing to encounter such a positive experience, and it speaks volumes about the company's commitment to its customers. Thank you for hiring such fantastic employees."
-          </p>
-        </div>
-      </div>
-      <div class="box">
-        <div class="client_id">
-          <div class="img-box">
-            <img src="images/client-2.jpg" alt="">
+          <div class="client_detail">
+            <p>
+              "I've been using this company's services for a few months now, and I have to say, I'm impressed with my experience so far. The platform is user-friendly and intuitive, making it easy for me to invest in cryptocurrency and start earning money. The company's customer support team has been responsive and helpful, answering any questions I have promptly and providing me with valuable insights into the crypto market. I appreciate the company's focus on security and risk management, which has given me peace of mind knowing that my investments are in good hands. Most importantly, I've seen significant profits from my investments, and I'm excited to continue using this company's services to grow my portfolio. Overall, I highly recommend this company to anyone looking to make money through cryptocurrency investments."
+            </p>
           </div>
-          <div class="name">
-            <h5>
-              Gaurav Sharma
-            </h5>
-            <h6>
-              Our Valuable Customer
-            </h6>
-          </div>
-        </div>
-        <div class="client_detail">
-          <p>
-            "I've been using this company's services for a few months now, and I have to say, I'm impressed with my experience so far. The platform is user-friendly and intuitive, making it easy for me to invest in cryptocurrency and start earning money. The company's customer support team has been responsive and helpful, answering any questions I have promptly and providing me with valuable insights into the crypto market. I appreciate the company's focus on security and risk management, which has given me peace of mind knowing that my investments are in good hands. Most importantly, I've seen significant profits from my investments, and I'm excited to continue using this company's services to grow my portfolio. Overall, I highly recommend this company to anyone looking to make money through cryptocurrency investments."
-          </p>
         </div>
       </div>
       <div class="btn-box">
@@ -523,9 +546,7 @@ Currently we are working on 100 poeple batches so book your slot first for getti
     </div>
   </section>
 
-
-  <!-- end client section -->
-
+   
   <!-- info section -->
   <section class="info_section layout_padding">
     <div class="container">
