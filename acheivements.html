@@ -3,6 +3,29 @@
 <head>
     <title>Company Achievements</title>
     <style>
+        
+        /* Styles for desktop */
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    /* Styles for tablets */
+    @media (max-width: 768px) {
+      .container {
+        max-width: 720px;
+      }
+    }
+
+    /* Styles for mobile devices */
+    @media (max-width: 480px) {
+      .container {
+        max-width: 100%;
+        padding: 10px;
+      }
+    }
+ 
         body {
             font-family: Arial, sans-serif;
             background-color: #333;
